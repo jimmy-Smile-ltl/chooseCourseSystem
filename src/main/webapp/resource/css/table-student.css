@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/** 下面是表格 学生表格的*/
+table{
+margin-top:30px;
+display:block;
+background: #ccc;
+margin: auto;
+border-collapse: collapse;
+width: max-content;
+font-size:14px;
+/*border-collapse:collapse合并内外边距
+
+(去除表格单元格默认的2个像素内外边距*/
+
+}
+
+tr:nth-child(odd) {
+  background-color:#F5F5F5;
+  border:1px solid #cccccc;
+}
+tr:nth-child(even) {
+  background-color:#00ffff;
+  border:1px solid #00ffff;
+}
+
+
+
+.oneclass:hover {
+background: #0080ff;
+}
+
+th{
+height: 25px;
+line-height: 25px;
+text-align: center;
+border: 1px solid #cccccc;
+}
+
+td:nth-child(4){
+	width:10em;
+}
+td:nth-child(8){
+	width:18em;
+	
+}
+td{
+	width:5em;
+	padding:5px 15px;
+	text-align:center;
+	border-right: 1px solid #cccccc;
+}
+#page-info{
+	margin:20px auto;
+	margin-right:20%;
+	text-align:right;
+}
+a{
+	margin:5px 10px;
+	text-decoration:none;
+}

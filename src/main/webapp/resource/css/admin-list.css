@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/**头部导航栏 */
+* {
+   margin:0;
+   padding:0;
+}
+
+#list{
+	margin:0;
+	margin-bottom:20px;
+	padding:0;
+	display:flex;
+	flex-direction:row;
+	text-decoration:none;
+	width:100%;
+	position:relative;
+	font-size:18px;
+	text-align:center;
+}
+.box{
+	display:flex;
+	flex-direction:column;
+}
+
+#operate-stu{
+	flex:5;
+}
+#operate-course{
+	flex:5;
+}
+
+#operate-admin{
+	flex:3;
+}
+.item-box{
+	display:flex;
+	flex-direction:row;
+	text-decoration:none;
+	justify-content: space-around;
+}
+.item-box > .selected{
+	color: lavenderblush;
+    background: linear-gradient(080deg, #525d8a, #a3aecf21);
+    margin:0;
+	text-decoration:none;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	list-style:none;
+	text-decoration:none;
+	flex:1;
+	border-right:1px solid white;
+}
+.item-box > a{
+	margin:0;
+	text-decoration:none;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	list-style:none;
+	text-decoration:none;
+	background:#77C9DD;
+	flex:1;
+	border-right:1px solid white;
+	 color: black;
+}
+.item-span{
+	height:25px;
+	padding:6px 0;
+	display:block;
+	border-right:1px solid white;
+	background:#8EC7FF;
+}
+.list > #now{
+	color:black;
+	line-height:40px;
+	font-size:14px;
+	font-weight:200;
+	}
+
+.item-box > a:hover{
+     color:#0080ff;
+     background:#80ffff;
+    }
+
+
+    

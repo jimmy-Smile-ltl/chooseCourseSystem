@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/** 下面是表格 课程表格的*/
+table{
+margin-top:30px;
+display:block;
+background: #ccc;
+margin:10px auto ;
+border-collapse: collapse;
+width: max-content;
+/*border-collapse:collapse合并内外边距
+
+(去除表格单元格默认的2个像素内外边距*/
+
+}
+
+tr:nth-child(odd) {
+  background-color:#F5F5F5;
+  border:1px solid #cccccc;
+}
+tr:nth-child(even) {
+  background-color:#00ffff;
+  border:1px solid #00ffff;
+}
+
+
+
+.oneclass:hover {
+background: #0080ff;
+}
+
+th{
+height: 25px;
+line-height: 25px;
+text-align: center;
+background: #8ec7ff;
+border: 1px solid  #cccccc;
+padding:5px 0;
+}
+
+td:nth-child(2){
+	width:10em;
+}
+td:nth-child(5){
+	width:12em;
+
+}
+td{
+	width:5em;
+	padding:5px 10px;
+	text-align:center;
+	border-right: 1px solid #cccccc;
+}
+#page-info{
+	margin:20px 0;
+	text-align: center;
+	font-size:20px;
+}
+.pageinfo{
+	    margin-right:40%;
+}
+
+#submit{
+	text-align: center;
+	margin-top:30px;
+}
+#submit > .submit{
+	padding: 5px 10px;
+    font-size: 18px;
+    margin-right: 10%;
+}
+
+#submit > .reset{
+	padding: 5px 10px;
+    font-size: 18px;
+    margin-left: 10%;
+    background:#0080ff;
+    color:withe;
+}
+a{
+	margin:5px 10px;
+	text-decoration:none;
+}

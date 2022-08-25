@@ -1,0 +1,32 @@
+@charset "UTF-8";
+#schudule_table{
+	display:block;
+	background: #ccc;
+	margin: 20px auto;
+	border-collapse: collapse;
+	width: max-content;
+	font-size:16px;
+}
+tr:nth-child(odd) {
+  background-color:#F5F5F5;
+  border:1px solid #cccccc;
+}
+tr:nth-child(even) {
+  background-color:#00ffff;
+  border:1px solid #00ffff;
+}
+th{
+height: 25px;
+line-height: 25px;
+text-align: center;
+background: #8ec7ff;
+border: 1px solid  #cccccc;
+padding:5px 10px;
+}
+
+td{
+	width:max-content;
+	padding:5px 20px;
+	text-align:center;
+	border-right: 1px solid #cccccc;
+}
